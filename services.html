@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Veil and Vibez</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <img src="imagess/logom.png" alt="scarf">
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#ABOUT">ABOUT US</a></li>
+        <li><a href="services.html">DIGITAL SERVICES</a></li>
+        </ul>
+      <!-- <div class="nav__btns">
+        <button class="btn">BOOK TRIP</button>
+      </div> -->
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <h1>Perfect for every Occasion...</h1>
+          <h3>Discover elegance and style with our exclusive collection of premium scarfs,</h3>
+          <div class="header__btns">
+            
+
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="imagess/Buss.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    
+
+   
+
+    <section class="section__container showcase__container" id="ABOUT">
+      <div class="showcase__image">
+        <img src="imagess/showcase.png" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>ABOUT US</h4>
+        <div style="text-align: justify;">
+            <p style="text-align: justify;">
+  Our dedicated <strong>team</strong> consists of <strong>skilled professionals</strong> with expertise in various digital domains. With a passion for innovation and a commitment to quality, we work collaboratively to deliver tailored solutions that align with our clients' goals. Whether it's a startup or an established business, we ensure each project is handled with precision, creativity, and technical excellence.
+</p>
+    <p style="text-align: justify;">
+  We offer a comprehensive range of digital services tailored to meet the diverse needs of individuals and businesses. Our team specializes in <strong>web development</strong>, creating responsive, user-friendly websites that effectively represent your brand and drive engagement.
+</p>
+
+<p style="text-align: justify;">
+  We also provide expert <strong>application development</strong> for both Android and iOS platforms, ensuring seamless performance and intuitive user experiences. Our <strong>graphic designing</strong> services deliver visually compelling designs that elevate your brand identity across digital and print media.
+</p>
+
+<p style="text-align: justify;">
+  For job seekers and professionals, we offer <strong>CV making</strong> services, crafting polished and impactful resumes that highlight your strengths and achievements. In addition, we provide tailored solutions in <strong>content writing</strong>, <strong>digital marketing</strong>, and other related areas upon request.
+</p>
+
+
+</div>
+
+
+        <div class="showcase__btn">
+          <button class="btn">
+            Contact Us
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+     <section class="section__container journey__container" id="tour">
+  <h2 class="section__header">My Previous Projects</h2>
+  <p class="section__description">
+    A glimpse of the work I've done so far.
+  </p>
+  <div class="projects__grid">
+    <div class="project__item">
+      <img src="services/1.png" alt="Project 1" onclick="openLightbox(this)">
+    </div>
+    <div class="project__item">
+      <img src="services/2.png" alt="Project 2" onclick="openLightbox(this)">
+    </div>
+    <div class="project__item">
+      <img src="services/3.png" alt="Project 3" onclick="openLightbox(this)">
+    </div>
+    <div class="project__item">
+      <img src="services/Learn SEO From Expert.png" alt="Project 4" onclick="openLightbox(this)">
+    </div>
+    <div class="project__item">
+      <img src="services/f.png" alt="Project 1" onclick="openLightbox(this)">
+    </div>
+    <div class="project__item">
+      <img src="services/frba.png" alt="Project 2" onclick="openLightbox(this)">
+    </div>
+    <div class="project__item">
+      <img src="services/one page Food Menu.png" alt="Project 3" onclick="openLightbox(this)">
+    </div>
+    <div class="project__item">
+      <img src="services/d.png" alt="Project 4" onclick="openLightbox(this)">
+    </div>
+    <!-- Add more images as needed -->
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Full View">
+  </div>
+</section>
+
+
+<!---->
+<section class="section__container journey__container">
+  <h2 class="section__header">Download Sample CVs</h2>
+  <p class="section__description">Click to view or download the CVs I've created.</p>
+  <div class="projects__grid">
+    <div class="project__item">
+      <a href="cvs/cv1.pdf" target="_blank">
+        <img src="cvs/cv1_thumb.png" alt="CV 1 Preview">
+      </a>
+    </div>
+    <div class="project__item">
+  <a href="cvs/cv1.pdf" target="_blank">
+    <img src="cvs/cv1_thumb.png" alt="CV 1 Preview">
+  </a>
+  <div style="text-align:center; margin-top:10px;">
+    <a href="cvs/cv1.pdf" download class="download-btn">Download CV</a>
+  </div>
+</div>
+    <div class="project__item">
+      <a href="cvs/cv3.pdf" target="_blank">
+        <img src="cvs/cv3_thumb.png" alt="CV 3 Preview">
+      </a>
+    </div>
+    <div class="project__item">
+  <a href="cvs/cv1.pdf" target="_blank">
+    <img src="cvs/cv1_thumb.png" alt="CV 1 Preview">
+  </a>
+  <div style="text-align:center; margin-top:10px;">
+    <a href="cvs/cv1.pdf" download class="download-btn">Download CV</a>
+  </div>
+</div>
+<div class="project__item">
+  <a href="cvs/cv1.pdf" target="_blank">
+    <img src="cvs/cv1_thumb.png" alt="CV 1 Preview">
+  </a>
+  <div style="text-align:center; margin-top:10px;">
+    <a href="cvs/cv1.pdf" download class="download-btn">Download CV</a>
+  </div>
+</div>
+<div class="project__item">
+  <a href="cvs/cv1.pdf" target="_blank">
+    <img src="cvs/cv1_thumb.png" alt="CV 1 Preview">
+  </a>
+  <div style="text-align:center; margin-top:10px;">
+    <a href="cvs/cv1.pdf" download class="download-btn">Download CV</a>
+  </div>
+</div>
+<div class="project__item">
+  <a href="cvs/cv1.pdf" target="_blank">
+    <img src="cvs/cv1_thumb.png" alt="CV 1 Preview">
+  </a>
+  <div style="text-align:center; margin-top:10px;">
+    <a href="cvs/cv1.pdf" download class="download-btn">Download CV</a>
+  </div>
+</div>
+<div class="project__item">
+  <a href="cvs/cv1.pdf" target="_blank">
+    <img src="cvs/cv1_thumb.png" alt="CV 1 Preview">
+  </a>
+  <div style="text-align:center; margin-top:10px;">
+    <a href="cvs/cv1.pdf" download class="download-btn">Download CV</a>
+  </div>
+</div>
+    <!-- Add more CVs as needed -->
+  </div>
+ 
+
+</section>
+
+
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>4+</h4>
+        <p>Years Experience</p>
+      </div>
+      <div class="banner__card">
+        <h4>6k</h4>
+        <p>Happy Clients</p>
+      </div>
+      <div class="banner__card">
+        <h4>4.8</h4>
+        <p>Overrall Ratings</p>
+      </div>
+    </section>
+
+    
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Veil and Vibez</a>
+          </div>
+          <p>
+           Shop elegant scarves and hijabs at Veil and Vibez — premium modest fashion, modern styles, and comfortable wraps for every season and occasion.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#!"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="ri-tiktok-line"></i></a>
+            </li>
+          </ul>
+        </div>
+       
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>+9233333
+              </a>
+            </li>
+           
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>Gujrat, Pakistan
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+         
+         
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Veil and Vibez. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </body>
+</html>
